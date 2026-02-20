@@ -15,13 +15,14 @@ class AiCodeGeneratorServiceTest {
 
     @Test
     void generateHtmlCode() {
-        HtmlCodeResult result = aiCodeGeneratorService.generateHtmlCode("你是谁？");
+        HtmlCodeResult result = aiCodeGeneratorService.generateHtmlCode("做个登录页面？");
         Assertions.assertNotNull(result);
     }
 
     @Test
     void generateMultiFileCode() {
-        MultiFileCodeResult multiFileCode = aiCodeGeneratorService.generateMultiFileCode("做个程序员鱼皮的留言板");
+        MultiFileCodeResult multiFileCode = aiCodeGeneratorService.generateMultiFileCode("做个登录页面，不超过30行代码");
         Assertions.assertNotNull(multiFileCode);
     }
+
 }
