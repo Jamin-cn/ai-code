@@ -1,6 +1,6 @@
 package com.jamin.aicodemaster.service;
 
-import com.jamin.aicodemaster.model.dto.UserQueryRequest;
+import com.jamin.aicodemaster.model.dto.user.UserQueryRequest;
 import com.jamin.aicodemaster.model.entity.User;
 import com.jamin.aicodemaster.model.vo.LoginUserVO;
 import com.jamin.aicodemaster.model.vo.UserVO;

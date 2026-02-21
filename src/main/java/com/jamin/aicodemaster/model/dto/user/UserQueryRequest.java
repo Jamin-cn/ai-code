@@ -1,4 +1,4 @@
-package com.jamin.aicodemaster.model.dto;
+package com.jamin.aicodemaster.model.dto.user;
 
 import com.jamin.aicodemaster.common.PageRequest;
 import lombok.Data;

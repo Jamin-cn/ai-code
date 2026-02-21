@@ -6,7 +6,7 @@ import cn.hutool.core.util.StrUtil;
 import com.jamin.aicodemaster.exception.BusinessException;
 import com.jamin.aicodemaster.exception.ErrorCode;
 import com.jamin.aicodemaster.mapper.UserMapper;
-import com.jamin.aicodemaster.model.dto.UserQueryRequest;
+import com.jamin.aicodemaster.model.dto.user.UserQueryRequest;
 import com.jamin.aicodemaster.model.entity.User;
 import com.jamin.aicodemaster.model.enums.UserRoleEnum;
 import com.jamin.aicodemaster.model.vo.LoginUserVO;

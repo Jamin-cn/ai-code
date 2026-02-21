@@ -9,7 +9,7 @@ import com.jamin.aicodemaster.constant.UserConstant;
 import com.jamin.aicodemaster.exception.BusinessException;
 import com.jamin.aicodemaster.exception.ErrorCode;
 import com.jamin.aicodemaster.exception.ThrowUtils;
-import com.jamin.aicodemaster.model.dto.*;
+import com.jamin.aicodemaster.model.dto.user.*;
 import com.jamin.aicodemaster.model.entity.User;
 import com.jamin.aicodemaster.model.vo.LoginUserVO;
 import com.jamin.aicodemaster.model.vo.UserVO;
