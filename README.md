@@ -1,4 +1,4 @@
-### AI零代码应用构建平台
+### AI零代码应用构建平台<span > <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" /> <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" /> </span>
 基于 Spring Boot 3 + LangChain4j + LangGraph4j 的 Ai 零代码应用生成平台。用户输入自然语言描述，由 Agent 自动执行并发素材搜集、代码生成、质量检查、项目构建的完整工作流，最终一键部署为可访问的 Web 应用。
 项目核心为一套AI工作流，并采用多级缓存、分布式限流、异步处理、护轨重试等多种优化策略，保证系统的高性能与稳定性。
 ### 状态：
