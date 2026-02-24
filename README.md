@@ -1,6 +1,7 @@
 ### AI零代码应用构建平台<!-- 技术栈徽章组 -->
+<!-- 技术栈徽章组 -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-17%2B-%23ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Java-21-%23ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java 21" />
   <img src="https://img.shields.io/badge/Spring_Boot-3.x-%236DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/LangChain4j-AI_Agent-%238A2BE2?style=for-the-badge&logo=google-gemini&logoColor=white" alt="LangChain4j" />
   <img src="https://img.shields.io/badge/Vue.js-3.x-%234FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue 3" />
