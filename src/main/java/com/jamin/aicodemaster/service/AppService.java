@@ -1,5 +1,6 @@
 package com.jamin.aicodemaster.service;
 
+import com.jamin.aicodemaster.model.dto.app.AppAddRequest;
 import com.jamin.aicodemaster.model.dto.app.AppQueryRequest;
 import com.jamin.aicodemaster.model.entity.User;
 import com.jamin.aicodemaster.model.vo.AppVO;
@@ -19,7 +20,11 @@ public interface AppService extends IService<App> {
 
     Flux<String> chatToGenCode(Long appId, String message, User loginUser);
 
+    Long createApp(AppAddRequest appAddRequest, User loginUser);
+
     String deployApp(Long appId, User loginUser);
+
+    void generateAppScreenshotAsync(Long appId, String appUrl);
 
     AppVO getAppVO(App app);
 
